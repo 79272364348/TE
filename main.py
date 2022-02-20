@@ -1,12 +1,12 @@
 #импорт модулей
 import matplotlib.pyplot as plt# для отрисовки графиков
-import managersLagr as ML#вызовем написанные модули
-import managersEul as ME#
+import managers as MN#вызовем написанные модули
+#
 #Создадим материальное тело
-a = ML.create_body()
+a = MN.create_body()
 #двигаем материальное тело
-b = ML.move_material_body(a)
+b = MN.move_material_body(a)
 #Движение в пространстве
-d = ME.Move_through_space()
-
+d = MN.Move_through_space()
+plt.show()
 

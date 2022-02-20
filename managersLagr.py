@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
 from modelsLagr import MaterialBody
 from modelsLagr import MaterialPoint
-import math as m
 import numpy as np
 # Функция для интегратора
 
